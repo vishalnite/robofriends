@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Cardlist from '../components/Cardlist';
 import SearchBox from '../components/SearchBox';
 import './App.css';
 import Scroll from '../components/Scroll';
 import ErrorBoundry from '../components/ErrorBoundry';
 
-class App extends React.Component {
+class App extends Component {
     constructor () {
         super();
         this.state = {
